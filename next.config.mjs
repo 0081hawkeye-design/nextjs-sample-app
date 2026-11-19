@@ -2,6 +2,19 @@
 const nextConfig = {
   /* config options here */
   reactStrictMode: true,
+  images:{
+    remotePatterns:[
+      {
+        protocol: "https",
+        hostname: "www.royalcupcoffee.com",
+      },
+
+      {
+        protocol: "https",
+        hostname: "*.google.com",
+      }
+    ]
+  }
 };
 
 export default nextConfig;

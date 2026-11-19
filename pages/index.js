@@ -37,6 +37,7 @@ export default function Home() {
       <div
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
+        <h1>updated</h1>
         <h1>hello {session?.data?.user?.name} </h1>
         <button onClick={signOut}>Logout</button>
       </div>
